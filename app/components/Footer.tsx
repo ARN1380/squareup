@@ -7,6 +7,7 @@ import Linkedin from "@/app/src/images/Linkedin.svg";
 import mail from "@/app/src/images/mail.svg";
 import phone from "@/app/src/images/phone.svg";
 import location from "@/app/src/images/location.svg";
+import GradiantBorder from "./GradiantBorder";
 function Footer() {
   return (
     <footer className="px-4 py-[30px] border-t border-gray-15">
@@ -42,21 +43,15 @@ function Footer() {
         <div className="border border-gray-15 p-4 flex flex-col justify-center items-center rounded-lg gap-4">
           <p className="capitalize">stay connected</p>
           <div className="flex gap-[10px]">
-            <div className="bg-gradient-to-b from-[#2e2e2e] rounded-md p-[1px]">
-              <div className="bg-gradient-to-b from-[#242424] rounded-md p-4">
-                <Image src={facebook} alt="facebook link" />
-              </div>
-            </div>
-            <div className="bg-gradient-to-b from-[#2e2e2e] rounded-md p-[1px]">
-              <div className="bg-gradient-to-b from-[#242424] rounded-md p-4">
-                <Image src={twitter} alt="twitter link" />
-              </div>
-            </div>
-            <div className="bg-gradient-to-b from-[#2e2e2e] rounded-md p-[1px]">
-              <div className="bg-gradient-to-b from-[#242424] rounded-md p-4">
-                <Image src={Linkedin} alt="Linkedin link" />
-              </div>
-            </div>
+            <GradiantBorder>
+              <Image src={facebook} alt="facebook link" />
+            </GradiantBorder>
+            <GradiantBorder>
+              <Image src={twitter} alt="twitter link" />
+            </GradiantBorder>
+            <GradiantBorder>
+              <Image src={Linkedin} alt="Linkedin link" />
+            </GradiantBorder>
           </div>
         </div>
       </div>
