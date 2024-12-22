@@ -3,4 +3,5 @@ export interface props {
   style?: string;
   link?: boolean;
   href?: string;
+  padding?: string;
 }

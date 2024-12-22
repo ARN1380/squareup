@@ -11,12 +11,15 @@ export default function Header() {
   const linkStyle =
     "border border-gray-15 bg-gray-15 rounded-lg px-[22px] py-3";
   return (
-    <header className="w-full h-[106px] border-b border-b-gray-15 flex justify-between pt-10 px-4 pb-5 xl:py-5 xl:px-20 xl:items-center">
-      <div className="h-full xl:h-[80%] w-[400px] xl:flex-1">
+    <header className="w-full h-[106px] border-b border-b-gray-15 flex justify-center">
+      <div className="flex justify-between pt-10 px-4 pb-5 xl:py-5 xl:px-20 xl:items-center xl:w-[1280px] w-full">
+
+      {/* icon */}
+      <div className="h-full xl:h-[80%] w-[400px] xl:flex-1 ">
         <Image
           src={logo}
           alt="SquareUp logo"
-          placeholder="blur"
+          placeholder="blur"          
           className="h-full w-auto "
         />
       </div>
@@ -30,7 +33,7 @@ export default function Header() {
       </div>
       {/* links */}
 
-      <nav className="hidden xl:block capitalize font-semibold text-sm flex-4">
+      <nav className="hidden xl:block capitalize font-semibold text-sm ">
         <ul className="flex gap-4">
           <li>
             <Link
@@ -102,6 +105,8 @@ export default function Header() {
           Contact Us
         </PrimaryBtn>
       </div>
+      </div>
+
     </header>
   );
 }
