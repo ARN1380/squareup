@@ -133,7 +133,7 @@ export default function page() {
                   At Squareup, our design team is passionate about creating
                   stunning, user-centric designs that captivate your audience
                   and elevate your brand. We believe that great design is not
-                  just about aesthetics; it's about creating seamless and
+                  just about aesthetics; it&apos;s about creating seamless and
                   intuitive user experiences.
                 </p>
               </div>
@@ -285,7 +285,7 @@ export default function page() {
             </h3>
             <p className="text-gray-90 max-w-[600px] text-center">
               At SquareUp, we take pride in delivering exceptional digital
-              products and services that drive success for our clients. Here's
+              products and services that drive success for our clients. Here&apos;s
               what some of our satisfied clients have to say about their
               experience working with us
             </p>
@@ -298,9 +298,9 @@ export default function page() {
                   Presence.{" "}
                 </h6>
                 <p className="mt-6 text-gray-90">
-                  Their team's expertise in web development and design resulted
+                  Their team&apos;s expertise in web development and design resulted
                   in a visually stunning and user-friendly e-commerce platform.
-                  Our online sales have skyrocketed, and we couldn't be happier.
+                  Our online sales have skyrocketed, and we couldn&apos;t be happier.
                 </p>
               </div>
               <StaffCard
@@ -341,7 +341,7 @@ export default function page() {
                   Their attention to detail and commitment to delivering a
                   user-friendly platform was evident throughout the project. The
                   system has streamlined our operations and enhanced our
-                  clients' event experiences.
+                  clients&apos; event experiences.
                 </p>
               </div>
               <StaffCard
@@ -360,7 +360,7 @@ export default function page() {
                 <p className="mt-6 text-gray-90">
                   They delivered an exceptional custom software solution. The
                   system has significantly increased our productivity and
-                  reduced manual errors. SquareUp's expertise and
+                  reduced manual errors. SquareUp&apos;s expertise and
                   professionalism have made them a trusted technology partner.
                 </p>
               </div>
@@ -381,7 +381,7 @@ export default function page() {
                 <p className="mt-6 text-gray-90">
                   The platform is visually appealing and easy to navigate,
                   allowing potential buyers to find their dream homes
-                  effortlessly. SquareUp's expertise in the real estate industry
+                  effortlessly. SquareUp&apos;s expertise in the real estate industry
                   is unmatched.
                 </p>
               </div>
@@ -400,7 +400,7 @@ export default function page() {
                   activities and provided personalized workout plans.{" "}
                 </h6>
                 <p className="mt-6 text-gray-90">
-                  SquareUp's team developed an intuitive and feature-rich app
+                  SquareUp&apos;s team developed an intuitive and feature-rich app
                   that has helped our users stay motivated and achieve their
                   fitness goals. We highly recommend SquareUp for any health and
                   fitness app development needs.
