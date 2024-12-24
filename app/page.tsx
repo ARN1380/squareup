@@ -106,53 +106,74 @@ export default function page() {
               captivate and engage your audience.
             </p>
           </div>
-          <div className="flex h-[510px]">
-            <div className="border border-gray-15 p-10">
-              <GradiantBorderPlus padding="p-5">
-                <Image src={brush} alt="brush icon" />
-              </GradiantBorderPlus>
-              <h6 className="capitalize text-white font-semibold tracking-wide text-2xl mt-9">
-                design
-              </h6>
-              <p className="mt-5 tracking-wide text-gray-90">
-                At Squareup, our design team is passionate about creating
-                stunning, user-centric designs that captivate your audience and
-                elevate your brand. We believe that great design is not just
-                about aesthetics; it's about creating seamless and intuitive
-                user experiences.
-              </p>
-              <Border style="text-center text-[14px] font-medium">Learn More</Border>
+          <div className="flex min-h-[510px]">
+            <div className="border border-gray-15 p-10 flex flex-col justify-between">
+              <div>
+                <GradiantBorderPlus padding="p-5">
+                  <Image src={brush} alt="brush icon" />
+                </GradiantBorderPlus>
+                <h6 className="capitalize text-white font-semibold tracking-wide text-2xl mt-9">
+                  design
+                </h6>
+                <p className="mt-5 tracking-wide text-gray-90">
+                  At Squareup, our design team is passionate about creating
+                  stunning, user-centric designs that captivate your audience
+                  and elevate your brand. We believe that great design is not
+                  just about aesthetics; it's about creating seamless and
+                  intuitive user experiences.
+                </p>
+              </div>
+              <div>
+                <Border style="text-center text-[14px] font-medium">
+                  Learn More
+                </Border>
+              </div>
             </div>
-            <div className="border border-gray-15 p-10">
-              <GradiantBorderPlus padding="p-5">
-                <Image src={brush} alt="brush icon" />
-              </GradiantBorderPlus>
-              <h6 className="capitalize text-white font-semibold tracking-wide text-2xl mt-9">
-                design
-              </h6>
-              <p className="mt-5 tracking-wide text-gray-90">
-                At Squareup, our design team is passionate about creating
-                stunning, user-centric designs that captivate your audience and
-                elevate your brand. We believe that great design is not just
-                about aesthetics; it's about creating seamless and intuitive
-                user experiences.
-              </p>
+            <div className="border border-gray-15 p-10 flex flex-col justify-between">
+              <div>
+                <GradiantBorderPlus padding="p-5">
+                  <Image src={brush} alt="brush icon" />
+                </GradiantBorderPlus>
+                <h6 className="capitalize text-white font-semibold tracking-wide text-2xl mt-9">
+                  design
+                </h6>
+                <p className="mt-5 tracking-wide text-gray-90">
+                  At Squareup, our design team is passionate about creating
+                  stunning, user-centric designs that captivate your audience
+                  and elevate your brand. We believe that great design is not
+                  just about aesthetics; it's about creating seamless and
+                  intuitive user experiences.
+                </p>
+              </div>
+              <div>
+                <Border style="text-center text-[14px] font-medium">
+                  Learn More
+                </Border>
+              </div>
             </div>
-            <div className="border border-gray-15 p-10">
-              <GradiantBorderPlus padding="p-5">
-                <Image src={brush} alt="brush icon" />
-              </GradiantBorderPlus>
-              <h6 className="capitalize text-white font-semibold tracking-wide text-2xl mt-9">
-                design
-              </h6>
-              <p className="mt-5 tracking-wide text-gray-90">
-                At Squareup, our design team is passionate about creating
-                stunning, user-centric designs that captivate your audience and
-                elevate your brand. We believe that great design is not just
-                about aesthetics; it's about creating seamless and intuitive
-                user experiences.
-              </p>
+            <div className="border border-gray-15 p-10 flex flex-col justify-between">
+              <div>
+                <GradiantBorderPlus padding="p-5">
+                  <Image src={brush} alt="brush icon" />
+                </GradiantBorderPlus>
+                <h6 className="capitalize text-white font-semibold tracking-wide text-2xl mt-9">
+                  design
+                </h6>
+                <p className="mt-5 tracking-wide text-gray-90">
+                  At Squareup, our design team is passionate about creating
+                  stunning, user-centric designs that captivate your audience
+                  and elevate your brand. We believe that great design is not
+                  just about aesthetics; it's about creating seamless and
+                  intuitive user experiences.
+                </p>
+              </div>
+              <div>
+                <Border style="text-center text-[14px] font-medium">
+                  Learn More
+                </Border>
+              </div>
             </div>
+          
           </div>
         </section>
       </div>
