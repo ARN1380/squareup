@@ -15,7 +15,7 @@ export default function Header() {
       <div className="flex justify-between pt-10 px-4 pb-5 xl:py-5 xl:items-center xl:w-[1280px] w-full">
 
       {/* icon */}
-      <div className="h-full xl:h-[80%] w-[400px] xl:flex-1 ">
+      <div className="h-full xl:h-[80%] w-[400px] xl:basis-1/4 ">
         <Image
           src={logo}
           alt="SquareUp logo"
@@ -32,8 +32,7 @@ export default function Header() {
         </div>
       </div>
       {/* links */}
-
-      <nav className="hidden xl:block capitalize font-semibold text-sm ">
+      <nav className="hidden xl:block capitalize font-semibold text-sm xl:basis-1/2 xl:flex justify-center">
         <ul className="flex gap-4">
           <li>
             <Link
@@ -95,9 +94,8 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-
       {/* contact us button */}
-      <div className="hidden flex-1 xl:flex justify-end">
+      <div className="hidden xl:basis-1/4 xl:flex justify-end">
         <PrimaryBtn
           href="/contact-us"
           style="h-min font-semibold hidden xl:block"
