@@ -32,7 +32,7 @@ export default function Header() {
         </div>
       </div>
       {/* links */}
-      <nav className="hidden xl:block capitalize font-semibold text-sm xl:basis-1/2 xl:flex justify-center">
+      <nav className="hidden capitalize font-semibold text-sm xl:basis-1/2 xl:flex justify-center">
         <ul className="flex gap-4">
           <li>
             <Link
