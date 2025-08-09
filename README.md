@@ -21,22 +21,6 @@ services, client testimonials, and a clean, elegant interface.
 
 ---
 
-## 📂 Folder Structure
-SquareUp/
-│── public/ # Static assets (images, logos)
-│── src/
-│ ├── components/ # Reusable React components
-│ ├── pages/ # Next.js pages (Home, Services, About, Contact)
-│ ├── styles/ # Tailwind and custom styles
-│ ├── utils/ # Helper functions (if any)
-│ └── App.tsx # Main application entry
-│── package.json
-│── tailwind.config.js
-│── tsconfig.json
-│── README.md
-
----
-
 ## 🌍 Live Demo
 https://squareup-phi.vercel.app/
 
